@@ -13,7 +13,7 @@
     <property name="connectionRoleName" display-name-key="ConnectionRoleName" description-key="The name of the Role used for tags connection (ex. Tags Connection). NOTE: Connections must be enabled on entities and Role created." of-type="SingleLine.Text" usage="input" required="true" />
     <property name="categoryEntity" display-name-key="CategoryEntity" description-key="The name of the Category entity (ex. my_tagcategory)" of-type="SingleLine.Text" usage="input" required="true" />
     <property name="categoryEntityNameField" display-name-key="CategoryEntityNameField" description-key="The Category name field (ex. my_name)" of-type="SingleLine.Text" usage="input" required="true" />
-    <property name="categories" display-name-key="CateigoriesField" description-key="The Categories to filter (comma-delimited) (ex. Default, Category 1,Category 2)." of-type="SingleLine.Text" usage="input" required="false" default-value="Default" />
+    <property name="categories" display-name-key="CategoriesField" description-key="The Categories to filter (comma-delimited) (ex. Default, Category 1,Category 2)." of-type="SingleLine.Text" usage="input" required="false" default-value="Default" />
     <resources>
       <code path="index.ts" order="1" />
     </resources>
