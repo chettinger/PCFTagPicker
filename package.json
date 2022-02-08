@@ -22,5 +22,10 @@
     "pcf-scripts": "^1",
     "pcf-start": "^1",
     "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@fluentui/react": "^8.53.0",
+    "@fluentui/react-hooks": "^8.3.10",
+    "react-hooks": "^1.0.1"
   }
 }
