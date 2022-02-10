@@ -5,7 +5,7 @@ import { ITag } from "@fluentui/react";
 import * as ReactDom from "react-dom";
 import React = require("react");
 import { IInputs, IOutputs } from "./generated/ManifestTypes";
-import { TagSelector } from "./PCFTagPicker";
+import { ConnectionTagPicker } from "./ConnectionTagPicker";
 
 export class PCFTagPicker implements ComponentFramework.StandardControl<IInputs, IOutputs> {
   private _container: HTMLDivElement;
@@ -70,7 +70,7 @@ export class PCFTagPicker implements ComponentFramework.StandardControl<IInputs,
       }
   }
   private renderControl(context: ComponentFramework.Context<IInputs>) {
-      const recordSelector = React.createElement(TagSelector, {
+      const recordSelector = React.createElement(ConnectionTagPicker, {
           availableTags: this._availableTags,
           selectedTags: this._selectedTags,
           onChange: (items?: ITag[]) => {

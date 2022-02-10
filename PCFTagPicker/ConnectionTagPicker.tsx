@@ -40,7 +40,7 @@ export interface IRecordSelectorProps {
     selectedTags: ITag[];
     onChange: (items?: ITag[]) => void;
 }
-export const TagSelector: React.FunctionComponent<IRecordSelectorProps> = (props) => {
+export const ConnectionTagPicker: React.FunctionComponent<IRecordSelectorProps> = (props) => {
     const pickerId = useId("inline-picker");
     tags = props.availableTags;
     return (
